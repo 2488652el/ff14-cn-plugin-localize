@@ -4,11 +4,11 @@
 
 **FFXIV 卫月（Dalamud）插件简体中文汉化 · AI Agent Skill**
 
-从 6 个真实汉化项目中提炼的可复用工作流，交给 AI 一句话开工
+从 5 个真实汉化项目中提炼的可复用工作流，交给 AI 一句话开工
 
 [![Skill](https://img.shields.io/badge/type-Agent%20Skill-blueviolet?style=flat-square)](SKILL.md)
 [![Lang](https://img.shields.io/badge/lang-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-red?style=flat-square)](SKILL.md)
-[![Plugins](https://img.shields.io/badge/%E5%AE%9E%E8%B7%B5%E9%A1%B9%E7%9B%AE-6%20%E4%B8%AA%E5%B7%B2%E5%8F%91%E5%B8%83%E6%B1%89%E5%8C%96-green?style=flat-square)](https://github.com/2488652el/dalamud-plugins)
+[![Plugins](https://img.shields.io/badge/%E5%AE%9E%E8%B7%B5%E9%A1%B9%E7%9B%AE-5%20%E4%B8%AA%E5%B7%B2%E5%8F%91%E5%B8%83%E6%B1%89%E5%8C%96-green?style=flat-square)](https://github.com/2488652el/dalamud-plugins)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
 </div>
@@ -27,8 +27,7 @@
 | visland-cn | 就地硬改 + 共存改名 | 34 文件 |
 | Browsingway-cn | 就地硬改 | 60+ 处 |
 | ItemVendorLocation-cn | 扩展 CheapLoc 双语字典 | 2 本字典 |
-| Submarine Tracker-cn | 复用上游 resx，只补 zh | 2 文件 17 行 |
-| CharacterPanelRefined | 复用上游 resx（待做） | 70 key |
+| CharacterPanelRefined | 复用上游 resx | 70 key |
 
 ## 🚀 安装
 
@@ -96,7 +95,7 @@ ff14-cn-plugin-localize/
 ## 🙏 致谢
 
 - 汉化实践：[@2488652el](https://github.com/2488652el) 的[卫月插件仓库](https://github.com/2488652el/dalamud-plugins)
-- 各插件上游作者：Critical-Impact / Styr1x / electr0sheep / Infiziert90 / awgil / Kouzukii
+- 各插件上游作者：Critical-Impact / Styr1x / electr0sheep / awgil / Kouzukii
 
 ## 📄 License
 

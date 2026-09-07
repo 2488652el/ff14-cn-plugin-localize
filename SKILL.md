@@ -5,7 +5,7 @@ description: 汉化 FFXIV 卫月（Dalamud）插件为简体中文并发布到�
 
 # FFXIV 卫月插件汉化
 
-适用于把英文 Dalamud 插件做成简体中文版 fork（`*-cn`）。本总结提炼自 6 个已完成的汉化仓库（Allagan Tools、Browsingway、ItemVendorLocation、Submarine Tracker、visland、CharacterPanelRefined）。
+适用于把英文 Dalamud 插件做成简体中文版 fork（`*-cn`）。本总结提炼自 5 个已完成的汉化仓库（Allagan Tools、Browsingway、ItemVendorLocation、visland、CharacterPanelRefined）。
 
 ## 第 0 步：判断策略（按优先级）
 
@@ -14,7 +14,7 @@ description: 汉化 FFXIV 卫月（Dalamud）插件为简体中文并发布到�
 1. **上游已有 i18n 体系（resx / Crowdin / 语言 JSON）→ 只补中文翻译，零代码改动。**
    - 标志：存在 `*.resx`、`Language.*.resx`、`crowdin.yml`、locales 目录。
    - 做法：新增或补全 `*.zh.resx`（复制中性文件的 key，只翻 value）。强类型 Designer 类只对中性 resx 生成，不用动。
-   - 参考：Submarine Tracker（补 `Language.zh.resx` 漏翻条目即可）。
+   - 参考：CharacterPanelRefined（补 `*.zh.resx` 漏翻条目即可）。
 2. **上游有简陋本地化骨架（如 CheapLoc 单字典）→ 扩展成完整双语字典。**
    - 做法：把所有用户可见字符串收进字典，代码里换成 `Loc.Localize(key, fallback)`，fallback 保留英文原文；按客户端语言选字典。
    - 参考：ItemVendorLocation（`Localization.cs` 内置 English/Chinese 两本字典）。
